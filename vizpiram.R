@@ -71,6 +71,6 @@ cmujeres <- gredad$PROVM
 datap <- data.frame(chombres,cmujeres,cvida)
 
 pyramid(datap,Llab="Hombres",Rlab="Mujeres",Clab="",
-        Laxis=seq(0,70000,len=5), AxisFM="d", AxisBM=",", Csize=0.9,Cgap=0.4,
+        Laxis=seq(0,70000,len=5), AxisFM="d", AxisBM=",", Csize=0.8,Cgap=0.4,
         Cstep=1, main="PIRAMIDE POR CURSO DE VIDA DE LA PROVINCIA DE CAJAMARCA 2022 
         \n (Fuente: INEI, MINSA)")
