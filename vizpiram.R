@@ -15,7 +15,7 @@ mujeres <- piramid$MUJERES
 data <- data.frame(hombres,mujeres,gedad)
 
 pyramid(data,Llab="Hombres",Rlab="Mujeres",Clab="",
-        Laxis=seq(0,25000,len=5), AxisFM="d", AxisBM=",", Csize=0.9,
+        Laxis=seq(0,25000,len=5), AxisFM="d", AxisBM=",", Csize=1.2,
         Cstep=1, main="PIRAMIDE POBLACIONAL DE LA PROVINCIA DE CAJAMARCA 2022 
         \n (Fuente: INEI, MINSA)")
 class(piramid)
