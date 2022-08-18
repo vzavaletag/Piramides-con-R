@@ -3,9 +3,7 @@ title: "Piramides"
 author: "Victor Zavaleta"
 date: "2022-08-18"
 output:
-  pdf_document: default
   html_document: default
-  word_document: default
 ---
 
 ```{r setup, include=FALSE}
