@@ -5,7 +5,7 @@ library(pyramid)
 library(readxl)
 # piramid <- read_excel("D:/2022/PLAN PROVINCIAL/piram22.xlsx")
 piramid <- read.csv("./piram22.csv", sep=";")
-View(piramid)
+head(piramid)
 
 
 gedad <- piramid$GEDAD
@@ -30,7 +30,7 @@ pyramid(py.df,Llab="Females",Rlab="Males",Lcol="Cyan", Ldens=-1, Rcol="Pink",
         Rdens=-1, GL=FALSE,main="An example of population pyramid\n with auto-axis")
 ########################################################################################
 #POBLACION RURAL
-gredad <- read_excel("D:/2022/PLAN PROVINCIAL/pobgedad.xlsx")
+gredad <- read_excel("D:/RSTUDIO/pobgedad.xlsx")
 View(gredad)
 
 pgedad <- gredad$GEdad
@@ -45,7 +45,7 @@ pyramid(datap,Llab="Hombres",Rlab="Mujeres",Clab="",
         \n (Fuente: INEI, Censo 2017)")
 ############################################################################
 # POBLACION URBANA
-gredad <- read_excel("D:/2022/PLAN PROVINCIAL/pobgedad.xlsx")
+gredad <- read_excel("D:/RSTUDIO/pobgedad.xlsx")
 View(gredad)
 
 pgedad <- gredad$GEdad
