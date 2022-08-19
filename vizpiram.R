@@ -3,7 +3,7 @@ library("apyramid")
 library("ggplot2")
 library(pyramid)
 library(readxl)
-# piramid <- read_excel("D:/2022/PLAN PROVINCIAL/piram22.xlsx")
+# piramid <- read_excel("D:/RSTUDIO/piram22.xlsx")
 piramid <- read.csv("./piram22.csv", sep=";")
 head(piramid)
 
@@ -62,7 +62,7 @@ pyramid(datap,Llab="Hombres",Rlab="Mujeres",Clab="",
 ##############################################################################
 ## PIRAMIDE POR CURSO DE VIDA
 
-gredad <- read_excel("D:/2022/PLAN PROVINCIAL/CVIDA.xlsx")
+gredad <- read_excel("D:/RSTUDIO/CVIDA.xlsx")
 View(gredad)
 
 cvida <- gredad$CVIDA
